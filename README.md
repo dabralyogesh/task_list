@@ -9,3 +9,4 @@ Functionality:
 
 # Icons Used
 The  icon used in this project are taken from Faltiocn and Icons8.
+The project is hosted on github pages: https://dabralyogesh.github.io/task_list/
