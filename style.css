@@ -1,0 +1,74 @@
+body {
+	background-image:url('illustration.png');
+	background-repeat: no-repeat;
+	background-size: 400px 400px;
+    
+}
+.list {
+  width: 800px;
+  height : 400px;
+  padding-top: 100px;
+  -webkit-box-shadow: 10px 10px 36px -13px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 36px -13px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 36px -13px rgba(0,0,0,0.75);
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.input_bar {
+	width: 100%;
+	height: auto;
+	margin-top: -20px;
+	display: flex;
+	justify-content: center;
+}
+.inputfield{
+	width: 400px;
+	height: 30px;
+	border-radius: 10px;
+	border-style: none;
+	outline: none;
+	background-image: url('list.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	font-family: "calibri", "helvetica", sans-serif;
+	padding-left: 40px;
+	background-position: 4px;
+}
+.task_list {
+	display: flex;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+    margin-bottom: 100px;
+}
+ul {
+	 list-style-type:none;
+}
+li {
+	font-style: sans-serif;
+	line-height: 2em;
+	font-size: 25px;
+}
+.check {
+	height: 18px;
+    width: 18px;
+    margin-right: 20px;
+}
+.add {
+	border-style: none; 
+	height: 30px; 
+	background-color: white; 
+	outline: none; 
+	margin-left: -48px;
+	margin-top:2px;
+}
+.delete {
+	outline: none;
+	border-style: none;
+	height: 25px;
+	background: transparent;
+	margin-left: 10px;
+}

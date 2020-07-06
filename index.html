@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> To-Do App</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div>
+  	<h1 style="text-align: center; text-decoration: underline;">TO-DO LIST<img src="todo_icon.gif" style="width:30px; padding-left: 10px;padding-top: 10px;"></h1>
+  </div>
+  <div style="display: flex;justify-content: center;">
+	  <div class="list">
+	    <div class="input_bar">
+	  		<input type="text" class="inputfield" placeholder="Add new task here.">
+	  		<button class="add" onclick="handler()"><img src="plus.png"></button>
+	  	</div>
+	  	<div class="task_list">
+		  	<ul></ul>
+		  	<p>Your task Board is empty!</p>
+	  	</div>
+	 </div>
+</div>
+ <script type="text/javascript" src="index.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.2.0/dist/confetti.browser.min.js"></script>
+</body>
+</html>
